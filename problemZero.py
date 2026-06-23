@@ -5,7 +5,7 @@ The first 5 square numbers are: 1, 4, 16, 25, 36, and the sum of the odd squares
 Among the first 856 thousand square numbers, what is the sum of all the odd squares?
 """
 
-#856/2 = 428 thousand odd squares.
+#856/2 = 428,000 odd squares.
 
 def formula(numsquares):
     interimsum = numsquares*(((4)*(numsquares**2))-1)
